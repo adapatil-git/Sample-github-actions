@@ -1,0 +1,15 @@
+name: "multievent / worlflow"
+on: 
+
+  push: 
+    branches:
+      - master
+
+
+
+jobs: 
+  on-push:
+    runs-on: ubuntu - latest
+    steps:
+      - name : "running on master branch"
+        run : echo "running n master branch"

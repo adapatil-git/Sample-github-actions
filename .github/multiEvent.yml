@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name : "running on master/test branch"
-        run : echo "running on master/test branch"
+        run : echo "running on maaster/test branch"
 
   on-pull-request:
     if: github.event_name == 'pull_request'
